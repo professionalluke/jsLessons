@@ -34,7 +34,7 @@ console.log('Initialization 2', x);
 /*
 Var, Let, and Const:
 var= 'old' js keyword for variables (introduce in ES6)
-const = also 'new'; it declares uchangeable variables
+const = also 'new'; it declares unchangeable variables
 Let = same as var
 */
 
