@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="firstWebPage.css">
+    <title>Tutorial</title>
+</head>
+
+<div class= "head">
+<header>
+    <h1><p>Tutorial Page!</p></h1>
+</header>
+<div class ="topnav" id= "myTopNav">
+    <a href="#home" class="active">Home</a>
+    <a href="#func">Functions</a>
+    <a href ="#obs">Objects</a>
+    <a href="#arr">Arrays</a>
+    
+    
+    </div></div>
+
+
+</div>
+
+
+<body>
+<input id="search" type="text" placeholder="Search...">
+</div>
+<div class="div">
+
+<div class= "functions">
+<h2>Functions</h2>  
+<p>The function statement declares a function. A declared function is "saved for later use", and will be executed later, when it is invoked (called).
+    <br>
+    In JavaScript, functions are objects, and they have both properties and methods. A function can also be defined using an expression.</p>
+<pre><code>
+      function hi(){
+      console.log('hello');
+     }
+    </code></pre>
+</div>
+<hr>
+
+<div class="objects">
+<h2>Objects</h2>
+    <p>An object is a collection of properties, and a property is an association between a name (or key) and a value.</p>
+    <p><pre><code>
+    let garden ={
+
+       vegetable: 'zucchini',
+       flower: 'sunflower',
+       fruit: 'grape',
+       water: true,
+       sun: true,
+       size: 10,
+    ;
+       console.log(garden.vegetable);
+   }
+       let value ='vegetable';
+       
+       console.log(garden.value, garden[value]);
+       console.log(garden.value, garden['vegetable']);
+    </code></pre></p>
+
+</div>
+<hr>
+<div class="arrays">
+        <h2>Arrays</h2>
+<p> The Array in JavaScript is a global object which contains a list of items. It is similar to any variable, in that you can use it to hold any type of data.
+<br>
+    An element inside an array can be of any type, and different elements of the same array can be of different types : string, boolean, even objects or other arrays.
+<br>
+
+    They have [ ], can hold multiple data types, and are good for listing.</p>
+<pre><code>     let food = ['pecan pie', 'shrimp', 'quesadilla', 'cheese cake', 'hot dog'];
+ 
+        for(let f of food){
+    
+        console.log(f);
+    }
+        food.push('pizza');
+        console.log(food);///adds a value to the string
+          
+        food.splice(1, 1, 'bananas');
+        console.log(food);////replaces original value
+            
+        food.splice(2,0, 'sweet potato pie');
+        console.log(food);
+        
+        food.pop();//remove last added file</code></pre>
+</div>
+
+
+</div>
+</body>
+<footer>
+    <br>
+    <b><p>sample text | edit 9/2018 | Icons provided by someone | JS is great</p></b>
+   <br> </footer>
+</html>
